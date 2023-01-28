@@ -1,0 +1,79 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-image: url('https://source.unsplash.com/1600x900/?landscape');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+#weather div{
+    line-height: 30px;
+}
+
+.heading{
+   text-align: center;
+   font-style: italic;
+   text-decoration:underline;
+}
+span{
+    color: rgb(172, 130, 210);   
+}
+span:hover{
+    color: aqua;
+    transition: 1s;
+    offset-rotate: 30deg;
+    cursor:pointer;
+}
+
+#card{
+    background: rgba(0, 0, 0, 0.817);
+    padding: 2em;
+    border-radius:150px 0px 150px 0px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    color: white;
+    box-shadow: 0 0 11px black;
+    background-blend-mode: color-burn;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#searchInput{
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 18px;
+    font-family: inherit;
+}
+#searchInput:hover{
+    background: #7c7c7c6b;
+    color: white;
+    transition: 0.3s;
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 2em;
+    width: 2em;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background: #7c7c7c6b;
+    color: white; 
+    transition: 0.3s;
+    
+}
