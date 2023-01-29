@@ -18,3 +18,7 @@ async function func(){
     document.body.style.backgroundImage= "url('https://source.unsplash.com/1600x900/?"+ `${data.name}` +"')" //Changing bg image based on seach value
 
 }
+
+setTimeout(function(){
+    alert("Enter location to check")
+},10000)
